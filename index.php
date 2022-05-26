@@ -3,32 +3,34 @@
   require_once "inc/header.php";
 ?>
 
-        <div class="bodybefore p-3">
+        <div class="bodybefore">
           &nbsp;
         </div>
 
         <!-- Showcase -->
-        <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
-        <div class="container">
-          <div class="d-sm-flex align-items-center justify-content-between">
-            <div>
-              <h1>Top Grade <span class="text-warning"> Assignment Writing Service</span></h1>
-              <p class="lead my-4">
+        <section class="showcase bg-dark text-light p-1 text-center text-sm-start">
+        <div class="container d-flex justify-content-center">
+          <div class="headline w-100 d-flex text-center justify-content-center">
+            <div class="illustration1">
+            <img
+              class="headline-img image-fluid"
+              src="img/edu_ilastration.png"
+              alt="headline image"
+            />
+            </div>
+            <div  class="headline-text">
+              <h1  id="headline-title">Top Grade <span class="text-warning"> Assignment Writing Service</span></h1>
+              <p class="support-text lead my-2">
                 Our website serves as a global online platform for custom assignment writing.
               </p>
               <button
-                class="btn btn-primary btn-lg"
+                class="btn btn-primary my-2 btn-lg"
                 data-bs-toggle="modal"
                 data-bs-target="#enroll"
               >
-                Get Started
+                Get an Instant Quote
               </button>
             </div>
-            <img
-              class="img-fluid w-50 d-none d-sm-block"
-              src="img/edu_ilastration.png"
-              alt=""
-            />
           </div>
         </div>
       </section>
@@ -50,7 +52,7 @@
         </section>
 
         <!-- Learn Sections-->
-        <section id="learn" class="p-5">
+        <section id="learn" class="p-2">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md">
@@ -73,7 +75,7 @@
             </div>
         </section>
 
-        <section id="learn" class="p-5 bg-dark text-light">
+        <section id="learn" class="p-2 bg-dark text-light">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md p-5">
@@ -96,7 +98,7 @@
         </section>
 
         <!-- Questions Accordion -->
-        <section id="accordion" class="p-5">
+        <section id="accordion" class="p-2">
           <div class="container">
             <h2 class="text-center mb-4">Frequently Asked Questions</h2>
             <div class="accordion accordion-flush" id="questions">
