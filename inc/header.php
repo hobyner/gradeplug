@@ -18,7 +18,8 @@
       href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./desktop/style.css" />
     <title>Gradeplug - <?php echo $title; ?></title>
   </head>
   <body>
